@@ -1,3 +1,4 @@
+import ContentRowTop from "./ContentRowTop";
 import TopBar from "./TopBar";
 
 export default function ContentWrapper() {
@@ -6,6 +7,7 @@ export default function ContentWrapper() {
             <div id="content-wrapper" className="d-flex flex-column">
                 <div id="content">
                     <TopBar />
+                    <ContentRowTop />
                 </div>
             </div>
         </>
